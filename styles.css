@@ -1,0 +1,42 @@
+figure {
+    display: flex;
+    width: 80%;
+}
+
+figure img {
+    margin: auto;
+}
+/* img {
+    width: 200px;
+    transition: width 0.1s;
+}
+img:active {
+width: 95%;
+} */
+
+/* Estilo para las imágenes en miniatura */
+/* .mini {
+width: 50%;
+height: auto;
+} */
+
+/* Estilo para las imágenes en pantalla completa */
+/* .full {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+} */
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 601px) {
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
